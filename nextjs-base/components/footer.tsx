@@ -39,7 +39,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="https://vercel.com/templates/next.js/documentation-template"
+        href="https://vercel.com/new/clone?repository-url=https://github.com/exionstech/spotlight-docs&project-name=nextjs-base&root-directory=nextjs-base"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <TriangleIcon className="h-[0.8rem] w-4 mr-2 text-primary fill-current" />
