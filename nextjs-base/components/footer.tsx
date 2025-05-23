@@ -45,13 +45,13 @@ export function FooterButtons() {
         <TriangleIcon className="h-[0.8rem] w-4 mr-2 text-primary fill-current" />
         Deploy
       </Link>
-      {/* <Link
-        href="https://github.com/sponsors/nisabmohd"
+      <Link
+        href="https://github.com/sponsors/exionstech"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
         Sponsor
-      </Link> */}
+      </Link>
     </>
   );
 }
