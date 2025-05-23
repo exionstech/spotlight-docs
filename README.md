@@ -2,6 +2,7 @@
 
 A versatile, open-source documentation template supporting multiple frameworks.
 
+<img src="./resources/public-og.png" />
 
 
 ### Templates
