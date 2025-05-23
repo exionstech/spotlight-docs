@@ -1,4 +1,4 @@
-## Spotlight Docs - Documentation Template
+## Spotlight Docs -  Documentation Template
 
 A versatile, open-source documentation template supporting multiple frameworks.
 
