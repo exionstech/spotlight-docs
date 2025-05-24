@@ -7,6 +7,7 @@ import { SheetLeftbar } from "./leftbar";
 import { page_routes } from "@/lib/routes-config";
 import { SheetClose } from "@/components/ui/sheet";
 import AlgoliaSearch from "./algolia-search";
+import Image from "next/image";
 
 export const NAVLINKS = [
   {
@@ -87,7 +88,7 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-      <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
+    <Image src={"/logo.svg"} alt="logo" width={50} height={50} className="w-6 object-cover" />
       <h2 className="text-md font-bold font-code">Spotlight Docs</h2>
     </Link>
   );
