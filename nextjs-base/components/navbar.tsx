@@ -88,7 +88,8 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-    <Image src={"/logo.svg"} alt="logo" width={50} height={50} className="w-6 object-cover" />
+    <Image src={"/logo.svg"} alt="logo" width={50} height={50} className="w-6 object-cover dark:block hidden" />
+    <Image src={"/logo-black.svg"} alt="logo" width={50} height={50} className="w-6 object-cover block dark:hidden" />
       <h2 className="text-md font-bold font-code">Spotlight Docs</h2>
     </Link>
   );
